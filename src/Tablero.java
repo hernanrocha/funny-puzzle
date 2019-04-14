@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class Tablero {
-    public static final int MATRIX_SIZE = 3;
+    public static final int MATRIX_SIZE = 4;
     public static final int MAX_VALUES = 2;
 
     // Datos del tablero
@@ -15,11 +15,17 @@ public class Tablero {
     }
 
     public void initRandom() {
+	m[0][1] = 1;
+	m[1][3] = 1;
+	m[3][0] = 1;	
+	
+	/*
 	for (int i = 0; i < m.length; i++) {
 	    for (int j = 0; j < m[i].length; j++) {
 		m[i][j] = (int) (Math.random() * 2);
 	    }
 	}
+	*/
     }
 
     public int get(int i, int j) {
