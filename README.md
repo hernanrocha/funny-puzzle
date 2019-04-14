@@ -8,6 +8,8 @@ Todos los tableros tienen una posible solucion, y puede ser consultada en cualqu
 
 Funny Puzzle es una aplicacion de escritorio programada en Java. 
 
+<img src="./docs/img/funny-puzzle.jpg" alt="Funny Puzzle App"/>
+
 ## Desarrollo
 
 El objetivo es mostrar a alumnos de secundaria el poder de las computadoras para resolver problemas lógicos, a veces en menor tiempo de lo que lo hace un ser humano.
